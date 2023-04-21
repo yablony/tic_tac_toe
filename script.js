@@ -1,6 +1,7 @@
 var grid = document.querySelector('section');
 var div = document.querySelectorAll('div');
 var results = document.querySelector('h2');
+var restartButton = document.querySelector('#restart');
 
 function gameTurns(event) {
     var square = event.target;
@@ -71,6 +72,13 @@ function gameTurns(event) {
 
 grid.addEventListener('click', gameTurns);
 
-// results.textContent = 'X is a winner!';
-// results.textContent = 'O is a winner!';
-// results.textContent = "It's a draw! Try again :)"
+function restartGame(event) {
+    event.preventDefault();
+
+    for (var i = 0; i < div.length; i++) {
+        div[i].className = '';
+    }
+    grid.addEventListener('click', gameTurns);
+}
+
+restartButton.addEventListener('click', restartGame);
