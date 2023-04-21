@@ -82,7 +82,9 @@ function gameTurns(event) {
         xWins += 1;
         xWon.textContent = 'X won: ' + xWins;
         rounds.textContent = 'Game Rounds: ' + (oWins + xWins);
-    } 
+    } else if (results.textContent === "It's a draw! Try again :)") {
+        rounds.textContent = 'Game Rounds: ' + (oWins + xWins + 1);
+    }
 }
 
 grid.addEventListener('click', gameTurns);
