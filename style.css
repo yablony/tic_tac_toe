@@ -6,15 +6,32 @@
 
 body {
     text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1576863514292-542ef379c13b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
+.title {
+    font-family: 'Courgette', cursive;
+    margin: 1rem auto;
+}
+
+.yum-cha {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
 main {
     max-width: fit-content;
 }
 
 div {
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid rgb(226, 226, 226);
     margin: 0 auto;
     width: 100px;
     height: 100px;
@@ -28,13 +45,25 @@ div {
 }
 
 .cross {
-    background-image: url(./png-clipart-black-x-mark-tic-tac-toe-oxo-holiday-tic-tac-toe-game-blue-cross-miscellaneous-angle.png);
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross::before {
+    content: "🍤";
+    font-size: 5rem;
 }
 
 .nought {
-    background-image: url(./download.png);
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nought::before {
+    content: "🥟";
+    font-size: 5rem;
 }
 
 #restart {
@@ -42,11 +71,18 @@ div {
 }
 
 ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 0px;
     margin-top: 10px;
+    max-width: 18em;
+    gap: 2px;
 }
 
 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    font-size: 0.7rem;
 }

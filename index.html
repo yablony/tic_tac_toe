@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to Tic Tac Toe</h1>
+        <section class="title">
+            <h1>Welcome to the</h1>
+            <h1 class="yum-cha">Yum-Cha Battle 🥢</h1>
+        </section>
         <h2>Who's gonna win?</h2>
     </header>
     <main>
@@ -26,12 +36,12 @@
         </section>
 
         <button id="restart">Restart Game</button>
-        <section class="game-summary">
-            <h2>Game Summary</h2>
+        <section>
+            <h2 class="game-summary">Game Summary</h2>
             <ul>
-                <li class="rounds">Game Rounds: 0</li>
-                <li class="x-wins">X won: 0</li>
-                <li class="o-wins">O won: 0</li>
+                <li class="rounds">Number of Courses: 0</li>
+                <li class="x-wins">🍤 won: 0</li>
+                <li class="o-wins">🥟 won: 0</li>
             </ul>
         </section>
     </main>

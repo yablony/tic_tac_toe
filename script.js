@@ -1,4 +1,4 @@
-var grid = document.querySelector('section');
+var grid = document.querySelector('.game-board');
 var div = document.querySelectorAll('div');
 var results = document.querySelector('h2');
 var restartButton = document.querySelector('#restart');
