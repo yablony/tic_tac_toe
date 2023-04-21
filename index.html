@@ -12,19 +12,29 @@
         <h1>Welcome to Tic Tac Toe</h1>
         <h2>Who's gonna win?</h2>
     </header>
+    <main>
+        <section class="game-board">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
 
-    <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-    <button id="restart">Restart Game</button>
+        <button id="restart">Restart Game</button>
+        <section class="game-summary">
+            <h2>Game Summary</h2>
+            <ul>
+                <li class="rounds">Game Rounds: 0</li>
+                <li class="x-wins">X won: 0</li>
+                <li class="o-wins">O won: 0</li>
+            </ul>
+        </section>
+    </main>
 </body>
 <script src="./script.js"></script>
 </html>

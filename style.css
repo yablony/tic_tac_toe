@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+main {
+    max-width: fit-content;
+}
+
 div {
     box-sizing: border-box;
     border: 1px solid black;
@@ -16,11 +20,11 @@ div {
     height: 100px;
 }
 
-section {
+.game-board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 0px;
-    max-width: fit-content;
+    margin-top: 20px;
 }
 
 .cross {
@@ -35,4 +39,14 @@ section {
 
 #restart {
     margin: 30px auto;
+}
+
+ul {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
 }

@@ -2,6 +2,11 @@ var grid = document.querySelector('section');
 var div = document.querySelectorAll('div');
 var results = document.querySelector('h2');
 var restartButton = document.querySelector('#restart');
+var rounds = document.querySelector('.rounds');
+var xWon = document.querySelector('.x-wins');
+var oWon = document.querySelector('.o-wins');
+var oWins = 0;
+var xWins = 0;
 
 function gameTurns(event) {
     var square = event.target;
@@ -68,6 +73,16 @@ function gameTurns(event) {
         results.textContent = "It's a draw! Try again :)";
         grid.removeEventListener('click', gameTurns);
     }
+
+    if (results.textContent === 'O is a winner!') {
+        oWins += 1;
+        oWon.textContent = 'O won: ' + oWins;
+        rounds.textContent = 'Game Rounds: ' + (oWins + xWins);
+    } else if (results.textContent === 'X is a winner!') {
+        xWins += 1;
+        xWon.textContent = 'X won: ' + xWins;
+        rounds.textContent = 'Game Rounds: ' + (oWins + xWins);
+    } 
 }
 
 grid.addEventListener('click', gameTurns);
@@ -79,6 +94,7 @@ function restartGame(event) {
         div[i].className = '';
     }
     grid.addEventListener('click', gameTurns);
+    results.textContent = "Who's gonna win?";
 }
 
 restartButton.addEventListener('click', restartGame);
