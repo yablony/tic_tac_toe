@@ -2,12 +2,10 @@
 A game of Tic Tac Toe built by me in Yum Cha style.
 ## :computer: [Click here](https://yablony.github.io/tic_tac_toe/) to play the game!
 ## :page_facing_up: About
-- How to use my awesome project.
-- Download instructions (if relavent):
-
-`$ git clone my-awesome-app
-$ cd my-awesome-app
-$ node app.js`
+- How to play:
+1. Get a friend and take turns putting :fried_shrimp: and :dumpling: on the OG Tic Tact Toe 3x3 grid.
+2. The game will keep count of the game rounds (menu courses), as well as your wins.
+3. Have fun with it!
 
 - Add in-app screenshots.
 
