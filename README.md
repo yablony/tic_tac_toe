@@ -12,9 +12,7 @@ A game of Tic Tac Toe built by me in Yum Cha style.
 - Add in-app screenshots.
 
 ## :pencil2: Planning & Problem Solving
-Writing out what I was about to do instead of just doing it was very helpful.
-
-I started off by dotting down the key requirements of the MVP that I'll have to meet, which were then integrated into a plan. 
+Writing out what I was about to do instead of just doing it was very helpful.I started off by dotting down the key requirements of the MVP that I'll have to meet, which were then integrated into a plan. 
 
 I seperated the MVP into three stages: 
 1. Write the HTML.
@@ -26,6 +24,7 @@ JS took the largest chunk of my time, which I further seperated into the followi
 2. Write if statements to determine a winner and if it’s a draw.
 
 After writing out exactly how I would achieve each of the above (see notes screenshot below) I was able to go forward and start writing my code, fixing any bugs that came up along the way.
+
 
 After the MVP was delivered I decided to add more features to the game with the remaining time: 
 1. A button that resets the game.
