@@ -30,7 +30,7 @@ After the MVP was delivered I decided to add more features to the game with the 
 2. A game tracker that will count game rounds and the players' wins. 
 
 I also played around with the CSS by adding a background picture and replacing the original images of crosses and noughts with fried shrimps and dumplings!
-![image of paper and pen](./download.png)
+![image of paper and pen](./resources/Screen Shot 2023-04-23 at 12.30.26 pm.png)
 
 ## :rocket: Cool tech
 - JS, HTML, CSS, DOM manipulation
