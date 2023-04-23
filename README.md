@@ -21,7 +21,8 @@ JS took the largest chunk of my time, which I further seperated into the followi
 1. Create a function to take turns that doesn’t allow players click more than once on a grid's square.
 2. Write if statements to determine a winner and if it’s a draw.
 
-After writing out exactly how I would achieve each of the above (see notes screenshot below) I was able to go forward and start writing my code, fixing any bugs that came up along the way.
+After writing out exactly how I would achieve each of the above I was able to go forward and start writing my code, fixing any bugs that came up along the way.
+![image of paper and pen](./download.png)
 
 ### Post-MVP
 After the MVP was delivered I decided to add more features to the game with the remaining time: 
@@ -29,11 +30,6 @@ After the MVP was delivered I decided to add more features to the game with the 
 2. A game tracker that will count game rounds and the players' wins. 
 
 I also played around with the CSS by adding a background picture and replacing the original images of crosses and noughts with fried shrimps and dumplings!
-
-- Talk about approach to the problem.
-- Add screenshots/drawings of doodles/plan during the planning phase.
-- Flow charts of app logic.
-
 ![image of paper and pen](./download.png)
 
 ## :rocket: Cool tech
