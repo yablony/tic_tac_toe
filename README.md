@@ -22,7 +22,7 @@ JS took the largest chunk of my time, which I further seperated into the followi
 2. Write if statements to determine a winner and if it’s a draw.
 
 After writing out exactly how I would achieve each of the above I was able to go forward and start writing my code, fixing any bugs that came up along the way.
-![image of paper and pen](./download.png)
+![image of paper and pen](./resources/Screen\ Shot\ 2023-04-23\ at\ 12.30.26\ pm.png)
 
 ### Post-MVP
 After the MVP was delivered I decided to add more features to the game with the remaining time: 
