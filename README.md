@@ -1,6 +1,6 @@
-# Project Name
-The briefest description of my cool project and why you should all use it.
-## :computer: [Click here](https://example.com) to see my live project!
+# Tic Tac Toe
+A game of Tic Tac Toe built by me in Yum Cha style.
+## :computer: [Click here](https://yablony.github.io/tic_tac_toe/) to play the game!
 ## :page_facing_up: About
 - How to use my awesome project.
 - Download instructions (if relavent):
