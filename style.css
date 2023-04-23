@@ -6,42 +6,57 @@
 
 body {
     text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1576863514292-542ef379c13b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80);
+    background-image: url(https://images.unsplash.com/photo-1583475020831-fb4fbb497315?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 2rem;
 }
 
 .title {
     font-family: 'Courgette', cursive;
     margin: 1rem auto;
+    font-size: 1.9rem;
 }
 
 .yum-cha {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 
-h2 {
-    font-size: 1.2rem;
+.winner {
+    font-size: 2rem;
+    background-color: rgba(122, 66, 66, 0.5);
+    color:rgb(252, 187, 35);
 }
+
 main {
     max-width: fit-content;
+    background-color: rgba(122, 66, 66, 0.5);
+    background-blend-mode: screen;
+    padding: 1rem;
 }
 
 div {
     box-sizing: border-box;
     border: 1px solid rgb(226, 226, 226);
     margin: 0 auto;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .game-board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 0px;
-    margin-top: 20px;
 }
 
 .cross {
@@ -52,7 +67,7 @@ div {
 
 .cross::before {
     content: "🍤";
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .nought {
@@ -63,20 +78,31 @@ div {
 
 .nought::before {
     content: "🥟";
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 #restart {
-    margin: 30px auto;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+.game-stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-summary {
+    color:rgb(252, 187, 35);
+    font-size: 1.7rem;
 }
 
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 0px;
-    margin-top: 10px;
-    max-width: 18em;
     gap: 2px;
+    padding-left: 0px;
+    margin: 1rem auto;
+    max-width: 27rem;
 }
 
 li {
@@ -84,5 +110,5 @@ li {
     justify-content: center;
     align-items: center;
     list-style: none;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
