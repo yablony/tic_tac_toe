@@ -7,10 +7,9 @@ A game of Tic Tac Toe built by me in Yum Cha style.
 2. Once the game is over you'll know the winner of the round or if it's a draw.
 3. Use the 'Restart Game' button to start a new round.
 4. The game will keep count of the game rounds (menu courses), as well as your wins.
-5. Have fun with it!
+5. Have fun with it!(  )
 
-<img src="./resources/screenshot3.png" alt="picture of the game interface" width="auto" height="800px" text-align="center">
-<!-- ![picture of the game interface](./resources/screenshot3.png) -->
+<img src="./resources/screenshot3.png" alt="picture of the game interface" width="auto" height="800px">
 
 ## :pencil2: Planning & Problem Solving
 Writing out what I was about to do instead of just doing it was very helpful.I started off by dotting down the key requirements of the MVP that I'll have to meet, which were then integrated into a plan. I seperated the MVP into three stages: 
