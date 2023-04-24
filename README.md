@@ -9,7 +9,7 @@ A game of Tic Tac Toe built by me in Yum Cha style.
 4. The game will keep count of the game rounds (menu courses), as well as your wins.
 5. Have fun with it!
 
-- Add in-app screenshots.
+![picture of the game interface](./resources/screenshot3.png)
 
 ## :pencil2: Planning & Problem Solving
 Writing out what I was about to do instead of just doing it was very helpful.I started off by dotting down the key requirements of the MVP that I'll have to meet, which were then integrated into a plan. I seperated the MVP into three stages: 
@@ -22,12 +22,13 @@ JS took the largest chunk of my time, which I further seperated into the followi
 2. Write if statements to determine a winner and if it’s a draw.
 
 After writing out exactly how I would achieve each of the above I was able to go forward and start writing my code, fixing any bugs that came up along the way.
-![image of paper and pen](./resources/Screen\ Shot\ 2023-04-23\ at\ 12.30.26\ pm.png)
+![picture of notes with code startegy](./resources/screenshot1.png)
 
 ### Post-MVP
 After the MVP was delivered I decided to add more features to the game with the remaining time: 
 1. A button that resets the game.
 2. A game tracker that will count game rounds and the players' wins. 
+![picture of notes with code startegy](./resources/screenshot2.png)
 
 I also played around with the CSS by adding a background picture and replacing the original images of crosses and noughts with fried shrimps and dumplings!
 ![image of paper and pen](./resources/Screen\ Shot\ 2023-04-23\ at\ 12.30.26\ pm.png)
