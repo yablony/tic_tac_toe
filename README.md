@@ -2,7 +2,7 @@
 A game of Tic Tac Toe built by me in Yum Cha style.
 ## :computer: [Click here](https://yablony.github.io/tic_tac_toe/) to play the game!
 ## :page_facing_up: About
-- How to play:
+**How to play:**
 1. Get a friend and take turns putting :fried_shrimp: and :dumpling: on the OG Tic Tac Toe 3x3 grid.
 2. Once the game is over you'll know the winner of the round or if it's a draw.
 3. Use the 'Restart Game' button to start a new round.
