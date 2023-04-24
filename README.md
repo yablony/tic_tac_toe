@@ -9,7 +9,7 @@ A game of Tic Tac Toe built by me in Yum Cha style.
 4. The game will keep count of the game rounds (menu courses), as well as your wins.
 5. Have fun with it!
 
-<img src="./resources/screenshot3.png" alt="picture of the game interface" width="auto" height="800px" margin-left="300px">
+<img src="./resources/screenshot3.png" alt="picture of the game interface" width="auto" height="800px" text-align="center">
 <!-- ![picture of the game interface](./resources/screenshot3.png) -->
 
 ## :pencil2: Planning & Problem Solving
