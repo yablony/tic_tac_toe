@@ -30,6 +30,19 @@ header {
 
 .yum-cha {
     font-size: 3.5rem;
+    animation: colorFade 3s;
+}
+
+@keyframes colorFade {
+    0% {
+        color: white;
+    }
+    60% {
+        color: rgb(194, 55, 12);
+    }
+    100% {
+        color: white;
+    }
 }
 
 .winner {
@@ -68,6 +81,8 @@ div {
 .cross::before {
     content: "🍤";
     font-size: 6rem;
+    animation: bounceIn;
+    animation-duration: 1s;
 }
 
 .nought {
@@ -79,6 +94,8 @@ div {
 .nought::before {
     content: "🥟";
     font-size: 6rem;
+    animation: jello;
+    animation-duration: 1s;
 }
 
 #restart {
