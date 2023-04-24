@@ -41,14 +41,14 @@ I also played around with the CSS by adding a background image, replacing the or
 - Added emojis in CSS and HTML for the shrimp and dumpling instead of images.
 
 ## :scream: Bugs to fix :poop:
-- Website needs to be adjusted for the mobile interface.
-- Buttons to not click too many times (cause its broken :unamused:)
+- Website needs to be adjusted for screens of other sizes, e.g. the mobile interface.
 
 ## :sob: Lessons learnt
-- Planning is important for the wellbeing of the code, as well as my mental wellbeing
-- What I would do differently if I could wind back the clock...
+- Planning is important for the wellbeing of the code, as well as my mental wellbeing.
+- Get different people to test the game ahead of the deadline to find unnoticed bugs.
 
 ## :white_check_mark: Future features
-- A feature that allows a player to enter their name 
-- A feature that allows a player to pick a Yum Cha food to play with instead of only fried shrimp and dumpling
-- Sound effects for game immersion: player clicks and background music
+- A feature that allows a player to enter their name.
+- A feature that allows to pick a Yum-Cha food to play with instead of only fried shrimp and dumpling.
+- Sound effects for game immersion: player clicks and background music.
+- An option to play against the computer with different levels of difficulty.
