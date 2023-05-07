@@ -1,5 +1,5 @@
 # Tic Tac Toe
-A game of Tic Tac Toe built by me in Yum Cha style.
+A game of Tic Tac Toe in Yum Cha style.
 ## :computer: [Click here](https://yablony.github.io/tic_tac_toe/) to play the game!
 ## :page_facing_up: About
 **How to play:**
